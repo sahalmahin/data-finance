@@ -9,7 +9,7 @@ const NewsLetter = () => {
                 <div className="py-4">
                     <div className="flex flex-col sm:flex-row items-center justify-between w-full">
                         <input className="p-3 flex w-full rounded-md text-black" type="email" placeholder="Enter Your Email" />
-                        <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 ml-3 text-black">Notify me!</button>
+                        <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 sm:ml-3 text-black">Notify me!</button>
                     </div>
                     <p>We care about the protection of your data. Read our <span className="text-[#00df9a]">Privacy and Policy.</span></p>
                 </div>

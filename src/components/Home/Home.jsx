@@ -1,5 +1,6 @@
 import Analytics from "../Shared/Analytics";
 import Banner from "../Shared/Banner";
+import Cards from "../Shared/Cards";
 import NewsLetter from "../Shared/NewsLetter";
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
             <Banner/>
             <Analytics/>
             <NewsLetter/>
+            <Cards/>
         </div>
     );
 };

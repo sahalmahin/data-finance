@@ -2,7 +2,7 @@ import { ReactTyped } from "react-typed";
 
 const Banner = () => {
     return (
-        <div className="text-white">
+        <div name="home" className="text-white">
             <div className="max-w-[800px] w-full h-screen mt-[-96px] mx-auto text-center flex flex-col justify-center">
                 <p className="text-[#00df9a] font-semibold mt-16 p-2">Growing With Data Analytics</p>
                 <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-4">Grow with data</h1>
